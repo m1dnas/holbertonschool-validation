@@ -7,3 +7,4 @@ clean:
 post:
 	hugo new posts/$(POST_NAME)
 	sed -i '/title/c\title: "$(POST_TITLE)"' content/posts/$(POST_NAME).md
+	
